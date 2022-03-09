@@ -1,5 +1,5 @@
 html{
-    background-color: #ffffff;
+    background-color: #659224;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -79,14 +79,15 @@ label{
 
 footer{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100px;
-    background-color: rgb(29, 28, 28);
+    height: 150px;
+    background-color: rgb(0, 0, 0);
     color: white;
 }
 
-/*@media only screen and (max-width: 500px) 
+@media only screen and (max-width: 500px) 
 {
     .partie_nom_photo{
         display: flex;
@@ -96,13 +97,9 @@ footer{
     .name{
         margin-bottom: 25px;
     }
-}*/
+}
 /* --- logo --- */
 .logo{
-    height: 100px;
-    width: 250px;
-    overflow: hidden;
-    position: absolute;
-    bottom: 1%;
-    left: 60%;
+    width: 290px;
+    height: 100%;
 }

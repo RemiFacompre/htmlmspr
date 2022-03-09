@@ -33,20 +33,21 @@ h1{
 
 /* --- partie photo --- */
 
-.photo{
+/*.photo{
     height: 230px;
     width: 350px;
     border: 2px solid grey;
     overflow: hidden;
     position: relative;
-}
+}*/
 
 .photo img{
-    width: 100%;
-    position: absolute;
+    width: 150%;
+    border: 2px solid rgb(0, 0, 0);
+   /* position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);*/
 }
 
 .photo:hover{
